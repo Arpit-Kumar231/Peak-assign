@@ -8,5 +8,6 @@ export default defineConfig({
       external: ['uuid']
     }
   },
+  base: '/',
   plugins: [react()],
 })
