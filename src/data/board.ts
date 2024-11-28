@@ -98,13 +98,13 @@ export const Board: Columns = {
 			},
 			{
 				id: nanoid(),
-				title: "Admin Panel Back-end",
+				title: "Back-end Infrastructure",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "medium",
-				deadline: 50,
+				deadline: 100,
 				tags: [
 					{ title: "Test", ...getRandomColors() },
-					{ title: "Front", ...getRandomColors() },
+					{ title: "Backend", ...getRandomColors() },
 				],
 			},
 		],
