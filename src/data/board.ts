@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from "uuid";
+import { nanoid } from 'nanoid'
 import taskImage from "../assets/images/task.jpg";
 import taskImage2 from "../assets/images/task2.jpg";
 import taskImage3 from "../assets/images/task3.jpg";
@@ -10,7 +10,7 @@ export const Board: Columns = {
 		name: "Backlog",
 		items: [
 			{
-				id: uuidv4(),
+				id: nanoid(),
 				title: "Admin Panel Front-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "medium",
@@ -23,7 +23,7 @@ export const Board: Columns = {
 				],
 			},
 			{
-				id: uuidv4(),
+				id: nanoid(),
 				title: "Admin Panel Back-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "low",
@@ -39,7 +39,7 @@ export const Board: Columns = {
 		name: "Pending",
 		items: [
 			{
-				id: uuidv4(),
+				id: nanoid(),
 				title: "Admin Panel Back-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "high",
@@ -50,7 +50,7 @@ export const Board: Columns = {
 				],
 			},
 			{
-				id: uuidv4(),
+				id: nanoid(),
 				title: "Admin Panel Front-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "low",
@@ -68,7 +68,7 @@ export const Board: Columns = {
 		name: "To Do",
 		items: [
 			{
-				id: uuidv4(),
+				id: nanoid(),
 				title: "Admin Panel Front-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "medium",
@@ -86,7 +86,7 @@ export const Board: Columns = {
 		name: "Doing",
 		items: [
 			{
-				id: uuidv4(),
+				id: nanoid(),
 				title: "Admin Panel Front-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "low",
@@ -97,7 +97,7 @@ export const Board: Columns = {
 				],
 			},
 			{
-				id: uuidv4(),
+				id: nanoid(),
 				title: "Admin Panel Back-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "medium",
@@ -113,7 +113,7 @@ export const Board: Columns = {
 		name: "Done",
 		items: [
 			{
-				id: uuidv4(),
+				id: nanoid(),
 				title: "Admin Panel Front-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "high",
