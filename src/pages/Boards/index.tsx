@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import { useEffect, useState } from "react";
+
 import { Board } from "../../data/board";
 import { Columns } from "../../types";
 import { onDragEnd } from "../../helpers/onDragEnd";
