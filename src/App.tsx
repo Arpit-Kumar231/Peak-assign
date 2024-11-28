@@ -1,14 +1,9 @@
-// import Layout from "./layout";
-
-import Boards from "./pages/Boards/index.tsx";
+import { useRoutes } from "react-router";
+import routes from "./routes";
 
 function App() {
-  // const element = useRoutes(routes);
-  return (
-    // <Layout>
-      <Boards />
-    // </Layout>
-  );
+	const element = useRoutes(routes);
+	return <>{element}</>;
 }
 
 export default App;
