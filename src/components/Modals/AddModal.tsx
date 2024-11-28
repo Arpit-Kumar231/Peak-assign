@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState } from "react";
 import { getRandomColors } from "../../helpers/getRandomColors";
-import { v4 as uuidv4 } from "uuid";
+import { nanoid } from 'nanoid'
 
 interface Tag {
 	title: string;
@@ -18,7 +18,7 @@ interface AddModalProps {
 
 const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) => {
 	const initialTaskData = {
-		id: uuidv4(),
+		id: nanoid(),
 		title: "",
 		description: "",
 		priority: "",
